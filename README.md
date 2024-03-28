@@ -1,12 +1,6 @@
 # credit-risk-classification
 
 ## Overview of the Analysis
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any other algorithms).
-
 
 The data provided from `lending_data.csv` contained information of many different borrowers as the loan ammount, interest rate, income, debt to income ratio, accounts, derogatory marks, total debt, and the loan_status. All of that information is necessary because it was used to determine if the borrower was a healthy loan or a high-risk-borrower. 
 * 1. I imported and read the data into a dataframe, so that I could better understand the data. 
@@ -18,7 +12,7 @@ The data provided from `lending_data.csv` contained information of many differen
 
 ## Results
 
-    According to the report from logistic regression model predicts really well the healthy loan because it has a 100% precision. Meanwhile, it isn't really accurate for the high-risk-loan since it's a 85% precision. In average for both it's about 92% presice, and a 99% accurate. 
+According to the report from logistic regression model predicts really well the healthy loan because it has a 100% precision. Meanwhile, it isn't really accurate for the high-risk-loan since it's a 85% precision. In average for both it's about 92% presice, and a 99% accurate. 
 
 ## Summary
 * Which one seems to perform best? How do you know it performs best? Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
